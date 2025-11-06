@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES2019",
+      "module": "ESNext",
+      "declaration": true,
+      "outDir": "dist",
+      "strict": true,
+      "jsx": "react",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "moduleResolution": "Node"
+    },
+    "include": ["src", "tests"]
+  }
+  
