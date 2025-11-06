@@ -27,7 +27,7 @@ useLazyLoad(ref, functionCall, shouldLoad);
 - `shouldLoad` - parameter which decided how long the lazy loading whould continue.  
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 npm install react-next-utils
