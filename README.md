@@ -1,18 +1,24 @@
 # react-next-utils
 
-**Debounce & Lazy-load hooks for React and Next.js.**  
-A small, highly optimized package to improve performance and UX in your React/Next projects.
+**Debounce & Lazy-load hooks for React and Next.js**  
+A small, highly optimized package to improve performance and user experience in your React/Next.js projects.
 
 ---
 
-## Features
+##  Features
 
-- `useDebounce` – React hook to debounce any callback based on a dependency or value change.
-- `useLazyLoad` – React hook to trigger callbacks when elements enter the viewport using `IntersectionObserver`.
+- **`useDebounce`** – Debounce any callback function based on a dependency or input change.  
+- **`useLazyLoad`** – Trigger callbacks when an element enters the viewport using the Intersection Observer API.  
+
+## Usage
+```bash
+useDebounce(search, functionCall, 1000);
+useLazyLoad(ref, functionCall, shouldLoad);
+
 
 ---
 
-## Installation
+## 📦 Installation
 
 ```bash
 npm install react-next-utils
