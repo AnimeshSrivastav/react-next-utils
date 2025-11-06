@@ -14,7 +14,7 @@ A small, highly optimized package to improve performance and user experience in 
 ```bash
 useDebounce(search, functionCall, 1000);
 useLazyLoad(ref, functionCall, shouldLoad);
-
+```
 
 ---
 
