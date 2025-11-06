@@ -24,7 +24,7 @@ useLazyLoad(ref, functionCall, shouldLoad);
 ```
 - `ref` - ref to a div
 - `functionCall` -> the function which needs to be called
-- `shouldLoad` - parameter which decided how long the lazy loading whould continue.  
+- `shouldLoad` - parameter which decided how long the lazy loading will continue.  
 ---
 
 ## Installation
