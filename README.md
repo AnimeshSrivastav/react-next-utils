@@ -9,7 +9,6 @@ A small, highly optimized package to improve performance and UX in your React/Ne
 
 - `useDebounce` – React hook to debounce any callback based on a dependency or value change.
 - `useLazyLoad` – React hook to trigger callbacks when elements enter the viewport using `IntersectionObserver`.
-- `debounce` – Core utility function usable outside React as well.
 
 ---
 
