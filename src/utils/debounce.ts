@@ -64,13 +64,11 @@ export type DebounceOptions = {
       flush: () => void;
     };
   
-    // Cancel any pending debounce call
     debounced.cancel = () => {
       if (timeoutId) clearTimeout(timeoutId);
       timeoutId = null;
     };
-  
-    // Immediately execute pending debounce call
+
     debounced.flush = () => {
       if (timeoutId) {
         invokeFunc(null, []);
@@ -81,4 +79,5 @@ export type DebounceOptions = {
   
     return debounced;
   }
+
   
