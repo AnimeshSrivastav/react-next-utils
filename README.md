@@ -13,9 +13,18 @@ A small, highly optimized package to improve performance and user experience in 
 ## Usage
 ```bash
 useDebounce(search, functionCall, 1000);
+
+```
+- `search` - react state whcih is changing
+- `functionCall` -> the function which needs to be called
+- `1000` - duration 
+
+```
 useLazyLoad(ref, functionCall, shouldLoad);
 ```
-
+- `ref` - ref to a div
+- `functionCall` -> the function which needs to be called
+- `shouldLoad` - parameter which decided how long the lazy loading whould continue.  
 ---
 
 ## 📦 Installation
