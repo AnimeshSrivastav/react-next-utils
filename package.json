@@ -1,23 +1,31 @@
 {
   "name": "react-next-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Debounce & lazy-load hooks for React/Next.js",
-  "main": "dist/index.cjs.js", 
-  "module": "dist/index.mjs", 
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
-  "keywords": ["react", "nextjs", "hooks", "debounce", "lazy-load"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "nextjs",
+    "hooks",
+    "debounce",
+    "lazy-load"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AnimeshSrivastav/react-next-utils.git"
   },
- "peerDependencies": {
-  "react": ">=17.0.0",
-  "next": ">=12.0.0"
-},
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "next": ">=12.0.0"
+  },
   "scripts": {
-  "build": "tsc && esbuild src/index.ts --bundle --minify --platform=node --format=esm --external:react --external:react-dom --outfile=dist/index.mjs && esbuild src/index.ts --bundle --minify --platform=node --format=cjs --external:react --external:react-dom --outfile=dist/index.cjs.js",
-  "prepare": "npm run build"
-}
+    "build": "tsc && esbuild src/index.ts --bundle --minify --platform=node --format=esm --external:react --external:react-dom --outfile=dist/index.mjs && esbuild src/index.ts --bundle --minify --platform=node --format=cjs --external:react --external:react-dom --outfile=dist/index.cjs.js",
+    "prepare": "npm run build"
+  }
 }
